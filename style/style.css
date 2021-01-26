@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(212, 244, 255);
+    font-family: sans-serif;
+}
+
+img {
+    width: 500px;
+}
+
+h1 {
+    color: lightcoral;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+section>div {
+    position: relative;
+}
+
+#energie-melding {
+    text-align: center;
+    font-weight: bold;
+}
+
+#nijntje-groet {
+    position: absolute;
+    padding: 1em;
+    background-color: lightcoral;
+    color: white;
+    top: 10%;
+    left: 10%;
+    display: none;
+}
+
+#nijntje-groet.toon-nijntje-groet {
+    display: block;
+}
+
+.knoppen {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    display: block;
+    width: 10em;
+    height: 3em;
+    border: none;
+    background-color: lightcoral;
+}
+
+#willekeurig-knop {
+    background-color: rgb(129, 69, 69);
+}
